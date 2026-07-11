@@ -71,6 +71,7 @@ select {
     flex: 1;
     color: black;
     background: #90caf9;
+    width: 50px;
     height: 50px;
     padding: 0 20px;
     outline: 0;

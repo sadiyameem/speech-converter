@@ -3,6 +3,14 @@ let speech = new SpeechSynthesisUtterance();
 let voices = [];
 let voiceSelect = document.querySelector("select");
 
+const buttons = document.querySelectorAll("button");
+
+const listenButton = buttons[0];
+const speakButton = buttons[1];
+const stopButton = buttons[2];
+
+const resultElement = document.querySelector("textarea");
+
 window.speechSynthesis.onvoiceschanged = () => {
     voices = window.speechSynthesis.getVoices();
     speech.voice = voices[0];
@@ -17,4 +25,21 @@ voiceSelect.addEventListener("change", () => {
 document.querySelector("button").addEventListener("click", () => {
     speech.text = document.querySelector("textarea").value;
     window.speechSynthesis.speak(speech);
+});
+
+var recognition = new webkitSpeechRecognition();
+
+recognition.lang = window.navigator.language;
+recognition.interimResults = true;
+
+speakButton.addEventListener('click', () => {
+    recognition.start();
+});
+stopButton.addEventListener('click', () => {
+    recognition.stop();
+});
+
+recognition.addEventListener('result', (event) => {
+    const result = event.results[event.results.length - 1][0].transcript;
+    resultElement.value = result;
 });
