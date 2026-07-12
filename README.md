@@ -23,4 +23,6 @@
 - I struggled with using a built in API
 - I learned how to use a built in API
 
-- Images
+# Images
+<img width="1612" height="1030" alt="Screenshot 2026-07-11 at 4 32 04 PM" src="https://github.com/user-attachments/assets/2ce934e5-bf2f-426d-bcd7-7540ffccf081" />
+
