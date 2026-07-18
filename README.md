@@ -3,7 +3,6 @@
 # Description
 - This project lets users convert text into speech.
 - Users can write a message in the textbox and have it read out loud.
-- Users can also use there microphone to convert their voice into text.
 
 # Features
 - Convert written text into speech
@@ -23,5 +22,6 @@
 - I learned how to use a built in API
 
 # Images
-<img width="1612" height="1030" alt="Screenshot 2026-07-11 at 4 32 04 PM" src="https://github.com/user-attachments/assets/2ce934e5-bf2f-426d-bcd7-7540ffccf081" />
+<img width="1008" height="962" alt="Screenshot 2026-07-18 at 5 40 59 PM" src="https://github.com/user-attachments/assets/644e3096-9a4f-45db-8f27-4c831a6dab4d" />
+
 
