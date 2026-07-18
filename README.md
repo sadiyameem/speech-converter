@@ -1,16 +1,15 @@
 # Speech Converter
 
 # Description
-- This project lets users convert text into speech and speech into text.
+- This project lets users convert text into speech.
 - Users can write a message in the textbox and have it read out loud.
 - Users can also use there microphone to convert their voice into text.
 
 # Features
 - Convert written text into speech
 - Select different voices
-- Listen button
 - Speak button
-- Stop button
+- Theme toggle
 
 # Tools
 - HTML
